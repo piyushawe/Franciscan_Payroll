@@ -1,0 +1,171 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1909399589,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152183049,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73604,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2757988362,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1217432716,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 271,
+            "value": "#advance ledger report"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 4229746076,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 273,
+        "name": "To verify advance ledger report page",
+        "description": "",
+        "id": "franciscan-fee;to-verify-advance-ledger-report-page",
+        "after": [
+          {
+            "result": {
+              "duration": 2784035269,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2957107044,
+              "status": "passed"
+            },
+            "line": 274,
+            "name": "user open advance ledger report page",
+            "match": {
+              "location": "MyTestSteps.user_open_advance_ledger_report_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1172942160,
+              "status": "passed"
+            },
+            "line": 275,
+            "name": "verify advance ledger report page",
+            "match": {
+              "location": "MyTestSteps.verify_advance_ledger_report_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 272,
+            "name": "@scenario46"
+          }
+        ]
+      }
+    ],
+    "name": "Franciscan Fee",
+    "description": "    As a user I would like to verify that \r\n    The page is loaded successfully",
+    "id": "franciscan-fee",
+    "keyword": "Feature",
+    "uri": "Feature/VerifyPage.feature"
+  }
+]
