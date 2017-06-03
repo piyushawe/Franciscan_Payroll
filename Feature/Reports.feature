@@ -3,9 +3,9 @@ Feature: Reports
    so that I can verify them
 
   Background: 
-    Given user enter url " http://192.168.10.101:8069/Modules.aspx"
-    When user enter username "admin" and password "admin@123"
-    And passes school name "rosary"
+    Given user enter url "http://erp.stkarenssecondaryschool.com"
+    When user enter username "admin" and password "stkss#54321techpass"
+    And passes school name "st karen"
     And click signin
     Then payroll home page is opened
 
