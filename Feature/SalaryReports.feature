@@ -3,9 +3,9 @@ Feature: Salary Reports
    so that I can verify them
 
   Background: 
-    Given user enter url "http://erp.stkarenssecondaryschool.com"
-    When user enter username "admin" and password "stkss#54321techpass"
-    And passes school name "st karen"
+    Given user enter url "http://erptraining.franciscanecare.net/Secure/"
+    When user enter username "admin" and password "fspl@12345"
+    And passes school name "erptraining"
     And click signin
     Then payroll home page is opened
 
@@ -14,7 +14,7 @@ Feature: Salary Reports
   Scenario Outline: To test advance entry report
     Given advance entry report page opened
     When user enter from date as month "April" year "2017" and day "1" on advance entry report
-    And enter to date as month "March" year "2018" and day "31" on advance entry report
+    And enter to date as month "April" year "2017" and day "30" on advance entry report
     And select employee type "<employee type>" on advance entry report
     And select designation "<designation>" on advance entry report
     And select employee name "<employee name>" on advance entry report
@@ -29,7 +29,7 @@ Feature: Salary Reports
   Scenario Outline: To test advance repayment report
     Given advance repayment report page opened
     When user enter from date as month "April" year "2017" and day "1" on advance repayment report
-    And enter to date as month "March" year "2018" and day "31" on advance repayment report
+    And enter to date as month "April" year "2017" and day "30" on advance repayment report
     And select employee type "<employee type>" on advance repayment report
     And select designation "<designation>" on advance repayment report
     And select employee name "<employee name>" on advance repayment report

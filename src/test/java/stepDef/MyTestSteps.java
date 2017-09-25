@@ -97,7 +97,8 @@ public class MyTestSteps {
   @Before
   public void launchBrowser(Scenario sc)
   {
-	 System.setProperty("webdriver.chrome.driver", "D:\\selenium\\chrome\\chromedriver.exe");
+	 //System.setProperty("webdriver.chrome.driver", "D:\\selenium\\chrome\\chromedriver.exe");
+     System.setProperty("webdriver.chrome.driver", "E:\\chromedriver\\chromedriver_win32\\chromedriver.exe");
 	 dr= new ChromeDriver();
 	 dr.manage().window().maximize();
 	 scenario= sc.getSourceTagNames();
@@ -1324,15 +1325,32 @@ public class MyTestSteps {
 //define profession
   @When("^user open define profession page$")
   public void user_open_define_profession_page() throws Throwable {
-	  DefineProfession df= new DefineProfession(dr);
-	  df.openDefineProfession();
-	  
+	  DefineProfession dp= new DefineProfession(dr);
+	  dp.openDefineProfession();
   }
 
   @Then("^verify define profession page$")
   public void verify_define_profession_page() throws Throwable {
-	  DefineProfession df= new DefineProfession(dr);
-	  df.verifyPage(schoolname, scenario);
+	  DefineProfession dp= new DefineProfession(dr);
+	  dp.verifyPage(schoolname, scenario);
+  }
+
+  @When("^enter profession as \"([^\"]*)\"$")
+  public void enter_profession_as(String arg1) throws Throwable {
+      DefineProfession dp= new DefineProfession(dr);
+      dp.enterProfession(arg1);
+  }
+
+  @Then("^click save on define profession page$")
+  public void click_save_on_define_profession_page() throws Throwable {
+      DefineProfession dp= new DefineProfession(dr);
+      dp.clickSave(schoolname, scenario);
+  }
+
+  @Then("^click view on define profession page$")
+  public void click_view_on_define_profession_page() throws Throwable {
+      DefineProfession dp= new DefineProfession(dr);
+      dp.clickView(schoolname, scenario);
   }
 
 //define staff type
@@ -1347,7 +1365,31 @@ public class MyTestSteps {
 	  DefineStaffType dst= new DefineStaffType(dr);
 	  dst.verifyPage(schoolname, scenario);
   }
-  
+
+    @When("^enter staff type as \"([^\"]*)\" on define staff type page$")
+    public void enter_staff_type_as_on_define_staff_type_page(String arg1) throws Throwable {
+        DefineStaffType dst= new DefineStaffType(dr);
+        dst.enterStaffType(arg1);
+    }
+
+    @When("^select show on e care on define staff type page$")
+    public void select_show_on_e_care_on_define_staff_type_page() throws Throwable {
+        DefineStaffType dst= new DefineStaffType(dr);
+        dst.selectClickOnECare();
+    }
+
+    @Then("^click save on define staff type page$")
+    public void click_save_on_define_staff_type_page() throws Throwable {
+        DefineStaffType dst= new DefineStaffType(dr);
+        dst.clickSave(schoolname, scenario);
+    }
+
+    @Then("^click view on define staff type page$")
+    public void click_view_on_define_staff_type_page() throws Throwable {
+        DefineStaffType dst= new DefineStaffType(dr);
+        dst.clickView(schoolname, scenario);
+    }
+
 //define department
   @When("^user open define department page$")
   public void user_open_define_department_page() throws Throwable {

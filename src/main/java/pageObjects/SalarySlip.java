@@ -68,7 +68,8 @@ public class SalarySlip {
   public void clickPrint(String str, Collection<String> sc) throws IOException, InterruptedException
   {
 	  print.click();
+      u.verifyShow(dr, str, r, sc);
 	  Thread.sleep(2000);
-	  u.captureScreenshot(dr, str, r,sc);
+	  //u.captureScreenshot(dr, str, r,sc);
   }
 }

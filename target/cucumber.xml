@@ -1,12 +1,395 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.180908">
-<testcase classname="Franciscan Fee" name="To verify advance ledger report page" time="17.180908">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="9" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="18" time="593.75926">
+<testcase classname="Salary Reports" name="To test advance entry report" time="26.376793">
+<failure message="org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 2018&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'&#10;System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)&#13;&#10;&#9;at pageObjects.Utility.selectDate(Utility.java:45)&#13;&#10;&#9;at pageObjects.AdvanceEntryReport.selectToDate(AdvanceEntryReport.java:44)&#13;&#10;&#9;at stepDef.MyTestSteps.enter_to_date_as_month_year_and_day_on_advance_entry_report(MyTestSteps.java:156)&#13;&#10;&#9;at ✽.And enter to date as month &quot;March&quot; year &quot;2018&quot; and day &quot;31&quot; on advance entry report(Feature/SalaryReports.feature:17)&#13;&#10;"><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given advance entry report page opened......................................passed
+When user enter from date as month "April" year "2017" and day "1" on advance entry report.passed
+And enter to date as month "March" year "2018" and day "31" on advance entry report.failed
+And select employee type "All Employee Types" on advance entry report.......skipped
+And select designation "All" on advance entry report........................skipped
+And select employee name "All Employees" on advance entry report............skipped
+Then click show to open advance entry report................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 2018
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at pageObjects.Utility.selectDate(Utility.java:45)
+	at pageObjects.AdvanceEntryReport.selectToDate(AdvanceEntryReport.java:44)
+	at stepDef.MyTestSteps.enter_to_date_as_month_year_and_day_on_advance_entry_report(MyTestSteps.java:156)
+	at ✽.And enter to date as month "March" year "2018" and day "31" on advance entry report(Feature/SalaryReports.feature:17)
+]]></failure>
+</testcase>
+<testcase classname="Salary Reports" name="To test advance repayment report" time="24.592812">
+<failure message="org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 2018&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'&#10;System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)&#13;&#10;&#9;at pageObjects.Utility.selectDate(Utility.java:45)&#13;&#10;&#9;at pageObjects.AdvanceRepaymentReport.selectToDate(AdvanceRepaymentReport.java:44)&#13;&#10;&#9;at stepDef.MyTestSteps.enter_to_date_as_month_year_and_day_on_advance_repayment_report(MyTestSteps.java:199)&#13;&#10;&#9;at ✽.And enter to date as month &quot;March&quot; year &quot;2018&quot; and day &quot;31&quot; on advance repayment report(Feature/SalaryReports.feature:32)&#13;&#10;"><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given advance repayment report page opened..................................passed
+When user enter from date as month "April" year "2017" and day "1" on advance repayment report.passed
+And enter to date as month "March" year "2018" and day "31" on advance repayment report.failed
+And select employee type "All Employee Types" on advance repayment report...skipped
+And select designation "All" on advance repayment report....................skipped
+And select employee name "All Employees" on advance repayment report........skipped
+Then click show to open advance repayment report............................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 2018
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at pageObjects.Utility.selectDate(Utility.java:45)
+	at pageObjects.AdvanceRepaymentReport.selectToDate(AdvanceRepaymentReport.java:44)
+	at stepDef.MyTestSteps.enter_to_date_as_month_year_and_day_on_advance_repayment_report(MyTestSteps.java:199)
+	at ✽.And enter to date as month "March" year "2018" and day "31" on advance repayment report(Feature/SalaryReports.feature:32)
+]]></failure>
+</testcase>
+<testcase classname="Salary Reports" name="To test bank statement report" time="27.363385">
+<failure message="org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Inspiration public school&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'&#10;System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)&#13;&#10;&#9;at pageObjects.BankStatementReport.selectSchoolName(BankStatementReport.java:43)&#13;&#10;&#9;at stepDef.MyTestSteps.user_select_school_on_bank_statement_report(MyTestSteps.java:236)&#13;&#10;&#9;at ✽.When user select school &quot;Inspiration public school&quot; on bank statement report(Feature/SalaryReports.feature:46)&#13;&#10;"><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given bank statement report page opened.....................................passed
+When user select school "Inspiration public school" on bank statement report.failed
+And select salary month "2017 - April" on bank statement report.............skipped
+And select school bank "St. Karen Secondary" on bank statement report.......skipped
+And select salary cheque "0" on bank statement report.......................skipped
+Then click show to open bank statement report...............................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Inspiration public school
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at pageObjects.BankStatementReport.selectSchoolName(BankStatementReport.java:43)
+	at stepDef.MyTestSteps.user_select_school_on_bank_statement_report(MyTestSteps.java:236)
+	at ✽.When user select school "Inspiration public school" on bank statement report(Feature/SalaryReports.feature:46)
+]]></failure>
+</testcase>
+<testcase classname="Salary Reports" name="To test department wise report" time="23.066063">
 <system-out><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
 When user enter username "admin" and password "Admin#franciscan"............passed
 And passes school name "qaerp"..............................................passed
 And click signin............................................................passed
 Then payroll home page is opened............................................passed
-When user open advance ledger report page...................................passed
-Then verify advance ledger report page......................................passed
+Given department wise report page opened....................................passed
+When user select school bank "All School Banks" on department wise report...passed
+And select salary account no "All Salary A/C" on department wise report.....passed
+And select month from "April - 2017" on department wise report..............passed
+And select month to "April - 2017" on department wise report................passed
+And select department "All Departments" on department wise report...........passed
+Then click show to open department wise report..............................passed
 ]]></system-out>
+</testcase>
+<testcase classname="Salary Reports" name="To test employee type wise report" time="16.555694">
+<failure message="org.openqa.selenium.NoSuchElementException: Cannot locate element with text: All School Banks&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'&#10;System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)&#13;&#10;&#9;at pageObjects.EmployeeTypeWiseReport.selectSchoolBank(EmployeeTypeWiseReport.java:39)&#13;&#10;&#9;at stepDef.MyTestSteps.user_select_school_bank_on_employee_type_wise_report(MyTestSteps.java:322)&#13;&#10;&#9;at ✽.When user select school bank &quot;All School Banks&quot; on employee type wise report(Feature/SalaryReports.feature:76)&#13;&#10;"><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given employee type wise report page opened.................................passed
+When user select school bank "All School Banks" on employee type wise report.failed
+And select employee type "All Employee Types" on employee type wise report..skipped
+And select designation "All" on employee type wise report...................skipped
+And select employee name "All Employees" on employee type wise report.......skipped
+Then click show to open employee type wise report...........................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: All School Banks
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at pageObjects.EmployeeTypeWiseReport.selectSchoolBank(EmployeeTypeWiseReport.java:39)
+	at stepDef.MyTestSteps.user_select_school_bank_on_employee_type_wise_report(MyTestSteps.java:322)
+	at ✽.When user select school bank "All School Banks" on employee type wise report(Feature/SalaryReports.feature:76)
+]]></failure>
+</testcase>
+<testcase classname="Salary Reports" name="To test estimated extra income report when estimated extra income is clicked" time="30.347976">
+<system-out><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given estimated extra income report page opened.............................passed
+When user select school bank "All School Banks" on estimated extra income report.passed
+And select salary account no "All Salary A/C" on estimated extra income report.passed
+And select staff type "All Staff Types" on estimated extra income report....passed
+And select staff "All Staffs" on estimated extra income report..............passed
+And click estimated extra income on estimated extra income report...........passed
+Then click show to open estimated extra income report.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Salary Reports" name="To test estimated extra income report when gross extra income is clicked" time="24.406067">
+<system-out><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given estimated extra income report page opened.............................passed
+When user select school bank "All School Banks" on estimated extra income report.passed
+And select salary account no "All Salary A/C" on estimated extra income report.passed
+And select staff type "All Staff Types" on estimated extra income report....passed
+And select staff "All Staffs" on estimated extra income report..............passed
+And click gross extra income on estimated extra income report...............passed
+Then click show to open estimated extra income report.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Salary Reports" name="To test gross salary report" time="40.409281">
+<failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;ContentPlaceHolder1_ddlFYearMonth&quot;}&#10;  (Session info: chrome=60.0.3112.113)&#10;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 19 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'&#10;System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir1156_14847}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: d3a30fc83cc9feb500b2cdceb8133739&#10;*** Element info: {Using=id, value=ContentPlaceHolder1_ddlFYearMonth}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:420)&#13;&#10;&#9;at org.openqa.selenium.By$ById.findElement(By.java:218)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy16.getTagName(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:44)&#13;&#10;&#9;at pageObjects.GrossSalaryReport.selectFromMonth(GrossSalaryReport.java:53)&#13;&#10;&#9;at stepDef.MyTestSteps.select_from_month_on_gross_salary_report(MyTestSteps.java:426)&#13;&#10;&#9;at ✽.And select from month &quot;April - 2017&quot; on gross salary report(Feature/SalaryReports.feature:122)&#13;&#10;"><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given gross salary report page opened.......................................passed
+When user select school bank "All School Banks" on gross salary report......passed
+And select salary account no "All Salary A/C" on gross salary report........passed
+And select staff type "All Staff Types" on gross salary report..............passed
+And select from month "April - 2017" on gross salary report.................failed
+And select to month "April - 2017" on gross salary report...................skipped
+Then click show to open gross salary report.................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"ContentPlaceHolder1_ddlFYearMonth"}
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 19 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir1156_14847}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d3a30fc83cc9feb500b2cdceb8133739
+*** Element info: {Using=id, value=ContentPlaceHolder1_ddlFYearMonth}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
+	at pageObjects.GrossSalaryReport.selectFromMonth(GrossSalaryReport.java:53)
+	at stepDef.MyTestSteps.select_from_month_on_gross_salary_report(MyTestSteps.java:426)
+	at ✽.And select from month "April - 2017" on gross salary report(Feature/SalaryReports.feature:122)
+]]></failure>
+</testcase>
+<testcase classname="Salary Reports" name="To test month wise salary report" time="27.250473">
+<system-out><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given month wise salary report page opened..................................passed
+When user select school bank "All School Banks" on month wise salary report.passed
+And select salary account no "All Salary A/C" on month wise salary report...passed
+And select staff type "All Staff Types" on month wise salary report.........passed
+And select from month "April - 2017" on month wise salary report............passed
+And select to month "April - 2017" on month wise salary report..............passed
+Then click show to open month wise salary report............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Salary Reports" name="To test salary sheet" time="19.930845">
+<failure message="org.openqa.selenium.NoSuchElementException: Cannot locate element with text: All School Banks&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'&#10;System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)&#13;&#10;&#9;at pageObjects.SalarySheet.selectSchoolBank(SalarySheet.java:44)&#13;&#10;&#9;at stepDef.MyTestSteps.user_select_school_bank_on_salary_sheet(MyTestSteps.java:494)&#13;&#10;&#9;at ✽.When user select school bank &quot;All School Banks&quot; on salary sheet(Feature/SalaryReports.feature:149)&#13;&#10;"><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given salary sheet page opened..............................................passed
+When user select school bank "All School Banks" on salary sheet.............failed
+And select salary account no "All Salary A/C" on salary sheet...............skipped
+And select salary month "April - 2017" on salary sheet......................skipped
+Then click show to open salary sheet........................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: All School Banks
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at pageObjects.SalarySheet.selectSchoolBank(SalarySheet.java:44)
+	at stepDef.MyTestSteps.user_select_school_bank_on_salary_sheet(MyTestSteps.java:494)
+	at ✽.When user select school bank "All School Banks" on salary sheet(Feature/SalaryReports.feature:149)
+]]></failure>
+</testcase>
+<testcase classname="Salary Reports" name="To test staff statement" time="46.18474">
+<system-out><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given staff statement page opened...........................................passed
+When user select school bank "All School Banks" on staff statement..........passed
+And select salary account no "All Salary A/C" on staff statement............passed
+And select staff type "All Staff Types" on staff statement..................passed
+And select joining from date as month "April" year "2016" and day "1" on staff statement.passed
+And select joining to date as month "March" year "2017" and day "31" on staff statement.passed
+And select salary month "April - 2017" on staff statement...................passed
+Then click show to open staff statement.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Salary Reports" name="To test tds entry report" time="21.22155">
+<system-out><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given tds entry report page opened..........................................passed
+When user select month-year "April - 2017" on tds entry report..............passed
+Then click show to open tds entry report....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Salary Reports" name="To test salary certificate report" time="26.876058">
+<system-out><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given salary certificate report page opened.................................passed
+When user select school bank "All School Banks" on salary certificate report.passed
+And select salary account no "All Salary A/C" on salary certificate report..passed
+And select format "Format One" on salary certificate report.................passed
+And select year "2017-2018" on salary certificate report....................passed
+Then click show to open salary certificate report...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Salary Reports" name="To test quarterly form 24q" time="25.820933">
+<failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Quarterly Form 24Q&quot;}&#10;  (Session info: chrome=60.0.3112.113)&#10;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 31 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'&#10;System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir5484_15417}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 757ad30cef16ed14cd8425184cc8ed1c&#10;*** Element info: {Using=link text, value=Quarterly Form 24Q}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)&#13;&#10;&#9;at pageObjects.QuarterlyForm24Q.openQuarterlyForm24Q(QuarterlyForm24Q.java:35)&#13;&#10;&#9;at stepDef.MyTestSteps.quarterly_form_q_page_opened(MyTestSteps.java:624)&#13;&#10;&#9;at ✽.Given quarterly form 24q page opened(Feature/SalaryReports.feature:202)&#13;&#10;"><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given quarterly form 24q page opened........................................failed
+When user select school bank "All School Banks" on quarterly form 24q.......skipped
+And select salary account no "All Salary A/C" on quarterly form 24q.........skipped
+And select salary month "2017 - April" on quarterly form 24q................skipped
+Then click show to open quarterly form 24q..................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Quarterly Form 24Q"}
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir5484_15417}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 757ad30cef16ed14cd8425184cc8ed1c
+*** Element info: {Using=link text, value=Quarterly Form 24Q}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at pageObjects.QuarterlyForm24Q.openQuarterlyForm24Q(QuarterlyForm24Q.java:35)
+	at stepDef.MyTestSteps.quarterly_form_q_page_opened(MyTestSteps.java:624)
+	at ✽.Given quarterly form 24q page opened(Feature/SalaryReports.feature:202)
+]]></failure>
+</testcase>
+<testcase classname="Salary Reports" name="To test salary statement employee wise" time="85.473457">
+<system-out><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given salary statement employee wise page opened............................passed
+When user select salary account no "All Salary A/C" on salary statement employee wise.passed
+And select staff type "All Staff Types" on salary statement employee wise...passed
+And select staff "All Staffs" on salary statement employee wise.............passed
+Then click show to open salary statement employee wise......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Salary Reports" name="To test estimated salary report" time="55.594971">
+<system-out><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given estimated salary report page opened...................................passed
+When user select school bank "All School Banks" on estimated salary report..passed
+And select salary account no "All Salary A/C" on estimated salary report....passed
+And select staff type "All Staff Types" on estimated salary report..........passed
+And select staff "All Staffs" on estimated salary report....................passed
+And select format "Format 1" on estimated salary report.....................passed
+Then click show to open estimated salary report.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Salary Reports" name="To test salary slip" time="37.571388">
+<failure message="org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Inspiration public school&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'&#10;System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)&#13;&#10;&#9;at pageObjects.SalarySlip.selectSchoolName(SalarySlip.java:41)&#13;&#10;&#9;at stepDef.MyTestSteps.user_select_school_name_on_salary_slip(MyTestSteps.java:1247)&#13;&#10;&#9;at ✽.When user select school name &quot;Inspiration public school&quot; on salary slip(Feature/SalaryReports.feature:244)&#13;&#10;"><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given salary slip page opened...............................................passed
+When user select school name "Inspiration public school" on salary slip.....failed
+And select staff type "All Staff Types" on salary slip......................skipped
+And select salary month "April - 2017" on salary slip.......................skipped
+Then click show to open salary slip.........................................skipped
+And select employee "pallavi" on salary slip................................skipped
+Then click print to view salary slip........................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Inspiration public school
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at pageObjects.SalarySlip.selectSchoolName(SalarySlip.java:41)
+	at stepDef.MyTestSteps.user_select_school_name_on_salary_slip(MyTestSteps.java:1247)
+	at ✽.When user select school name "Inspiration public school" on salary slip(Feature/SalaryReports.feature:244)
+]]></failure>
+</testcase>
+<testcase classname="Salary Reports" name="To test consolidated salary statement" time="34.716774">
+<failure message="org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Teachers&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'&#10;System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)&#13;&#10;&#9;at pageObjects.ConsolidatedSalaryStatement.selectStaffType(ConsolidatedSalaryStatement.java:39)&#13;&#10;&#9;at stepDef.MyTestSteps.user_select_staff_type_on_consolidated_salary_statement(MyTestSteps.java:1290)&#13;&#10;&#9;at ✽.When user select staff type &quot;Teachers&quot; on consolidated salary statement(Feature/SalaryReports.feature:259)&#13;&#10;"><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+When user enter username "admin" and password "Admin#franciscan"............passed
+And passes school name "qaerp"..............................................passed
+And click signin............................................................passed
+Then payroll home page is opened............................................passed
+Given consolidated salary statement page opened.............................passed
+When user select staff type "Teachers" on consolidated salary statement.....failed
+And select salary month "2017 - April" on consolidated salary statement.....skipped
+Then click show to open consolidated salary statement.......................skipped
+And select employee "pallavi" on consolidated salary statement..............skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Teachers
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'DELL-PC', ip: '192.168.10.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at pageObjects.ConsolidatedSalaryStatement.selectStaffType(ConsolidatedSalaryStatement.java:39)
+	at stepDef.MyTestSteps.user_select_staff_type_on_consolidated_salary_statement(MyTestSteps.java:1290)
+	at ✽.When user select staff type "Teachers" on consolidated salary statement(Feature/SalaryReports.feature:259)
+]]></failure>
 </testcase>
 </testsuite>

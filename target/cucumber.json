@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1909399589,
+              "duration": 3997263167,
               "status": "passed"
             },
             "line": 6,
@@ -29,7 +29,7 @@
           },
           {
             "result": {
-              "duration": 152183049,
+              "duration": 167040942,
               "status": "passed"
             },
             "line": 7,
@@ -51,7 +51,7 @@
           },
           {
             "result": {
-              "duration": 73604,
+              "duration": 66859,
               "status": "passed"
             },
             "line": 8,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 2757988362,
+              "duration": 5510808334,
               "status": "passed"
             },
             "line": 9,
@@ -81,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 1217432716,
+              "duration": 592958190,
               "status": "passed"
             },
             "line": 10,
@@ -94,16 +94,10 @@
         ]
       },
       {
-        "comments": [
-          {
-            "line": 271,
-            "value": "#advance ledger report"
-          }
-        ],
         "before": [
           {
             "result": {
-              "duration": 4229746076,
+              "duration": 4114549348,
               "status": "passed"
             },
             "match": {
@@ -111,14 +105,14 @@
             }
           }
         ],
-        "line": 273,
-        "name": "To verify advance ledger report page",
+        "line": 25,
+        "name": "To test advance entry report",
         "description": "",
-        "id": "franciscan-fee;to-verify-advance-ledger-report-page",
+        "id": "salary-reports;to-test-advance-entry-report;;2",
         "after": [
           {
             "result": {
-              "duration": 2784035269,
+              "duration": 2802584406,
               "status": "passed"
             },
             "match": {
@@ -127,45 +121,4251 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2957107044,
+              "duration": 2379702512,
               "status": "passed"
             },
-            "line": 274,
-            "name": "user open advance ledger report page",
+            "line": 15,
+            "name": "advance entry report page opened",
             "match": {
-              "location": "MyTestSteps.user_open_advance_ledger_report_page()"
+              "location": "MyTestSteps.advance_entry_report_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4495819240,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enter from date as month \"April\" year \"2017\" and day \"1\" on advance entry report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "April",
+                  "offset": 31
+                },
+                {
+                  "val": "2017",
+                  "offset": 44
+                },
+                {
+                  "val": "1",
+                  "offset": 59
+                }
+              ],
+              "location": "MyTestSteps.user_enter_from_date_as_month_year_and_day_on_advance_entry_report(String,String,String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1172942160,
-              "status": "passed"
+              "duration": 2316000253,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 2018\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.3.1\u0027, revision: \u00275234b325d5\u0027, time: \u00272017-03-10 09:10:29 +0000\u0027\nSystem info: host: \u0027DELL-PC\u0027, ip: \u0027192.168.10.49\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)\r\n\tat pageObjects.Utility.selectDate(Utility.java:45)\r\n\tat pageObjects.AdvanceEntryReport.selectToDate(AdvanceEntryReport.java:44)\r\n\tat stepDef.MyTestSteps.enter_to_date_as_month_year_and_day_on_advance_entry_report(MyTestSteps.java:156)\r\n\tat ✽.And enter to date as month \"March\" year \"2018\" and day \"31\" on advance entry report(Feature/SalaryReports.feature:17)\r\n",
+              "status": "failed"
             },
-            "line": 275,
-            "name": "verify advance ledger report page",
+            "line": 17,
+            "name": "enter to date as month \"March\" year \"2018\" and day \"31\" on advance entry report",
             "match": {
-              "location": "MyTestSteps.verify_advance_ledger_report_page()"
+              "arguments": [
+                {
+                  "val": "March",
+                  "offset": 24
+                },
+                {
+                  "val": "2018",
+                  "offset": 37
+                },
+                {
+                  "val": "31",
+                  "offset": 52
+                }
+              ],
+              "location": "MyTestSteps.enter_to_date_as_month_year_and_day_on_advance_entry_report(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "select employee type \"All Employee Types\" on advance entry report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Employee Types",
+                  "offset": 22
+                }
+              ],
+              "location": "MyTestSteps.select_employee_type_on_advance_entry_report(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "select designation \"All\" on advance entry report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.select_designation_on_advance_entry_report(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "select employee name \"All Employees\" on advance entry report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Employees",
+                  "offset": 22
+                }
+              ],
+              "location": "MyTestSteps.select_employee_name_on_advance_entry_report(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "click show to open advance entry report",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_advance_entry_report()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 272,
-            "name": "@scenario46"
+            "line": 13,
+            "name": "@scenario1"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2190684211,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 207210189,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71258,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3834441400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1962401903,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3347395097,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "To test advance repayment report",
+        "description": "",
+        "id": "salary-reports;to-test-advance-repayment-report;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2710624999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3485770990,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "advance repayment report page opened",
+            "match": {
+              "location": "MyTestSteps.advance_repayment_report_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4521421370,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user enter from date as month \"April\" year \"2017\" and day \"1\" on advance repayment report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "April",
+                  "offset": 31
+                },
+                {
+                  "val": "2017",
+                  "offset": 44
+                },
+                {
+                  "val": "1",
+                  "offset": 59
+                }
+              ],
+              "location": "MyTestSteps.user_enter_from_date_as_month_year_and_day_on_advance_repayment_report(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2332790737,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 2018\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.3.1\u0027, revision: \u00275234b325d5\u0027, time: \u00272017-03-10 09:10:29 +0000\u0027\nSystem info: host: \u0027DELL-PC\u0027, ip: \u0027192.168.10.49\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)\r\n\tat pageObjects.Utility.selectDate(Utility.java:45)\r\n\tat pageObjects.AdvanceRepaymentReport.selectToDate(AdvanceRepaymentReport.java:44)\r\n\tat stepDef.MyTestSteps.enter_to_date_as_month_year_and_day_on_advance_repayment_report(MyTestSteps.java:199)\r\n\tat ✽.And enter to date as month \"March\" year \"2018\" and day \"31\" on advance repayment report(Feature/SalaryReports.feature:32)\r\n",
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "enter to date as month \"March\" year \"2018\" and day \"31\" on advance repayment report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "March",
+                  "offset": 24
+                },
+                {
+                  "val": "2018",
+                  "offset": 37
+                },
+                {
+                  "val": "31",
+                  "offset": 52
+                }
+              ],
+              "location": "MyTestSteps.enter_to_date_as_month_year_and_day_on_advance_repayment_report(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "select employee type \"All Employee Types\" on advance repayment report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Employee Types",
+                  "offset": 22
+                }
+              ],
+              "location": "MyTestSteps.select_employee_type_on_advance_repayment_report(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "select designation \"All\" on advance repayment report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.select_designation_on_advance_repayment_report(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "select employee name \"All Employees\" on advance repayment report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Employees",
+                  "offset": 22
+                }
+              ],
+              "location": "MyTestSteps.select_employee_name_on_advance_repayment_report(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "click show to open advance repayment report",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_advance_repayment_report()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@scenario2"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2478098005,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166526595,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54837,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5748442442,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 649303871,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3660266745,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "To test bank statement report",
+        "description": "",
+        "id": "salary-reports;to-test-bank-statement-report;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2733944822,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11845133610,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "bank statement report page opened",
+            "match": {
+              "location": "MyTestSteps.bank_statement_report_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81614394,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Inspiration public school\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.3.1\u0027, revision: \u00275234b325d5\u0027, time: \u00272017-03-10 09:10:29 +0000\u0027\nSystem info: host: \u0027DELL-PC\u0027, ip: \u0027192.168.10.49\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)\r\n\tat pageObjects.BankStatementReport.selectSchoolName(BankStatementReport.java:43)\r\n\tat stepDef.MyTestSteps.user_select_school_on_bank_statement_report(MyTestSteps.java:236)\r\n\tat ✽.When user select school \"Inspiration public school\" on bank statement report(Feature/SalaryReports.feature:46)\r\n",
+              "status": "failed"
+            },
+            "line": 46,
+            "name": "user select school \"Inspiration public school\" on bank statement report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Inspiration public school",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.user_select_school_on_bank_statement_report(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "select salary month \"2017 - April\" on bank statement report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2017 - April",
+                  "offset": 21
+                }
+              ],
+              "location": "MyTestSteps.select_salary_month_on_bank_statement_report(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "select school bank \"St. Karen Secondary\" on bank statement report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "St. Karen Secondary",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.select_school_bank_on_bank_statement_report(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 49,
+                "value": "# And select bank name \"\u003cbank name\u003e\" on bank statement report"
+              }
+            ],
+            "line": 50,
+            "name": "select salary cheque \"0\" on bank statement report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 22
+                }
+              ],
+              "location": "MyTestSteps.select_salary_cheque_on_bank_statement_report(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "click show to open bank statement report",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_bank_statement_report()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@scenario3"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1634430902,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 212433426,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68912,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3634380464,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1451899714,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3651880887,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 70,
+        "name": "To test department wise report",
+        "description": "",
+        "id": "salary-reports;to-test-department-wise-report;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2771748483,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1817454150,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "department wise report page opened",
+            "match": {
+              "location": "MyTestSteps.department_wise_report_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67693289,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user select school bank \"All School Banks\" on department wise report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All School Banks",
+                  "offset": 25
+                }
+              ],
+              "location": "MyTestSteps.user_select_school_bank_on_department_wise_report(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63123983,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "select salary account no \"All Salary A/C\" on department wise report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Salary A/C",
+                  "offset": 26
+                }
+              ],
+              "location": "MyTestSteps.select_salary_account_no_on_department_wise_report(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99426534,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "select month from \"April - 2017\" on department wise report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "April - 2017",
+                  "offset": 19
+                }
+              ],
+              "location": "MyTestSteps.select_month_from_on_department_wise_report(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105740634,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "select month to \"April - 2017\" on department wise report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "April - 2017",
+                  "offset": 17
+                }
+              ],
+              "location": "MyTestSteps.select_month_to_on_department_wise_report(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63973214,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "select department \"All Departments\" on department wise report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Departments",
+                  "offset": 19
+                }
+              ],
+              "location": "MyTestSteps.select_department_on_department_wise_report(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7491808269,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "click show to open department wise report",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_department_wise_report()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 58,
+            "name": "@scenario4"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1405676179,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 181736500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67445,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3718776850,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 643099445,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3573387474,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 84,
+        "name": "To test employee type wise report",
+        "description": "",
+        "id": "salary-reports;to-test-employee-type-wise-report;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2751317686,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4206280904,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "employee type wise report page opened",
+            "match": {
+              "location": "MyTestSteps.employee_type_wise_report_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75351319,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate element with text: All School Banks\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.3.1\u0027, revision: \u00275234b325d5\u0027, time: \u00272017-03-10 09:10:29 +0000\u0027\nSystem info: host: \u0027DELL-PC\u0027, ip: \u0027192.168.10.49\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)\r\n\tat pageObjects.EmployeeTypeWiseReport.selectSchoolBank(EmployeeTypeWiseReport.java:39)\r\n\tat stepDef.MyTestSteps.user_select_school_bank_on_employee_type_wise_report(MyTestSteps.java:322)\r\n\tat ✽.When user select school bank \"All School Banks\" on employee type wise report(Feature/SalaryReports.feature:76)\r\n",
+              "status": "failed"
+            },
+            "line": 76,
+            "name": "user select school bank \"All School Banks\" on employee type wise report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All School Banks",
+                  "offset": 25
+                }
+              ],
+              "location": "MyTestSteps.user_select_school_bank_on_employee_type_wise_report(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 77,
+            "name": "select employee type \"All Employee Types\" on employee type wise report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Employee Types",
+                  "offset": 22
+                }
+              ],
+              "location": "MyTestSteps.select_employee_type_on_employee_type_wise_report(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 78,
+            "name": "select designation \"All\" on employee type wise report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.select_designation_on_employee_type_wise_report(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 79,
+            "name": "select employee name \"All Employees\" on employee type wise report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Employees",
+                  "offset": 22
+                }
+              ],
+              "location": "MyTestSteps.select_employee_name_on_employee_type_wise_report(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 80,
+            "name": "click show to open employee type wise report",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_employee_type_wise_report()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 73,
+            "name": "@scenario5"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1072056152,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168118022,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62754,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3466695854,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 563039530,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3654835600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 99,
+        "name": "To test estimated extra income report when estimated extra income is clicked",
+        "description": "",
+        "id": "salary-reports;to-test-estimated-extra-income-report-when-estimated-extra-income-is-clicked;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2780118505,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10449753471,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "estimated extra income report page opened",
+            "match": {
+              "location": "MyTestSteps.estimated_extra_income_report_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71753233,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "user select school bank \"All School Banks\" on estimated extra income report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All School Banks",
+                  "offset": 25
+                }
+              ],
+              "location": "MyTestSteps.user_select_school_bank_on_estimated_extra_income_report(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75112033,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "select salary account no \"All Salary A/C\" on estimated extra income report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Salary A/C",
+                  "offset": 26
+                }
+              ],
+              "location": "MyTestSteps.select_salary_account_no_on_estimated_extra_income_report(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81702661,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "select staff type \"All Staff Types\" on estimated extra income report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Staff Types",
+                  "offset": 19
+                }
+              ],
+              "location": "MyTestSteps.select_staff_type_on_estimated_extra_income_report(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82056017,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "select staff \"All Staffs\" on estimated extra income report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Staffs",
+                  "offset": 14
+                }
+              ],
+              "location": "MyTestSteps.select_staff_on_estimated_extra_income_report(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149895342,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "click estimated extra income on estimated extra income report",
+            "match": {
+              "location": "MyTestSteps.click_estimated_extra_income_on_estimated_extra_income_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7732776837,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "click show to open estimated extra income report",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_estimated_extra_income_report()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 87,
+            "name": "@scenario6"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2365745924,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 189086332,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51611,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3335322300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1428045603,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3818134180,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 113,
+        "name": "To test estimated extra income report when gross extra income is clicked",
+        "description": "",
+        "id": "salary-reports;to-test-estimated-extra-income-report-when-gross-extra-income-is-clicked;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2707777321,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2888968097,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "estimated extra income report page opened",
+            "match": {
+              "location": "MyTestSteps.estimated_extra_income_report_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 68418772,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "user select school bank \"All School Banks\" on estimated extra income report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All School Banks",
+                  "offset": 25
+                }
+              ],
+              "location": "MyTestSteps.user_select_school_bank_on_estimated_extra_income_report(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61768030,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "select salary account no \"All Salary A/C\" on estimated extra income report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Salary A/C",
+                  "offset": 26
+                }
+              ],
+              "location": "MyTestSteps.select_salary_account_no_on_estimated_extra_income_report(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61315557,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "select staff type \"All Staff Types\" on estimated extra income report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Staff Types",
+                  "offset": 19
+                }
+              ],
+              "location": "MyTestSteps.select_staff_type_on_estimated_extra_income_report(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81806468,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "select staff \"All Staffs\" on estimated extra income report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Staffs",
+                  "offset": 14
+                }
+              ],
+              "location": "MyTestSteps.select_staff_on_estimated_extra_income_report(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119272899,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "click gross extra income on estimated extra income report",
+            "match": {
+              "location": "MyTestSteps.click_gross_extra_income_on_estimated_extra_income_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7280353686,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "click show to open estimated extra income report",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_estimated_extra_income_report()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 101,
+            "name": "@scenario7"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4190612954,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143915246,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57182,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8560858392,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5100575459,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3712235781,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 128,
+        "name": "To test gross salary report",
+        "description": "",
+        "id": "salary-reports;to-test-gross-salary-report;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2711627889,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15758551686,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "gross salary report page opened",
+            "match": {
+              "location": "MyTestSteps.gross_salary_report_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63330426,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "user select school bank \"All School Banks\" on gross salary report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All School Banks",
+                  "offset": 25
+                }
+              ],
+              "location": "MyTestSteps.user_select_school_bank_on_gross_salary_report(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68896464,
+              "status": "passed"
+            },
+            "line": 120,
+            "name": "select salary account no \"All Salary A/C\" on gross salary report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Salary A/C",
+                  "offset": 26
+                }
+              ],
+              "location": "MyTestSteps.select_salary_account_no_on_gross_salary_report(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78440044,
+              "status": "passed"
+            },
+            "line": 121,
+            "name": "select staff type \"All Staff Types\" on gross salary report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Staff Types",
+                  "offset": 19
+                }
+              ],
+              "location": "MyTestSteps.select_staff_type_on_gross_salary_report(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20179195,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"ContentPlaceHolder1_ddlFYearMonth\"}\n  (Session info: chrome\u003d60.0.3112.113)\n  (Driver info: chromedriver\u003d2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 19 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.3.1\u0027, revision: \u00275234b325d5\u0027, time: \u00272017-03-10 09:10:29 +0000\u0027\nSystem info: host: \u0027DELL-PC\u0027, ip: \u0027192.168.10.49\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir\u003dC:\\Users\\dell\\AppData\\Local\\Temp\\scoped_dir1156_14847}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d60.0.3112.113, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003d}]\nSession ID: d3a30fc83cc9feb500b2cdceb8133739\n*** Element info: {Using\u003did, value\u003dContentPlaceHolder1_ddlFYearMonth}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.getTagName(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.Select.\u003cinit\u003e(Select.java:44)\r\n\tat pageObjects.GrossSalaryReport.selectFromMonth(GrossSalaryReport.java:53)\r\n\tat stepDef.MyTestSteps.select_from_month_on_gross_salary_report(MyTestSteps.java:426)\r\n\tat ✽.And select from month \"April - 2017\" on gross salary report(Feature/SalaryReports.feature:122)\r\n",
+              "status": "failed"
+            },
+            "line": 122,
+            "name": "select from month \"April - 2017\" on gross salary report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "April - 2017",
+                  "offset": 19
+                }
+              ],
+              "location": "MyTestSteps.select_from_month_on_gross_salary_report(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 123,
+            "name": "select to month \"April - 2017\" on gross salary report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "April - 2017",
+                  "offset": 17
+                }
+              ],
+              "location": "MyTestSteps.select_to_month_on_gross_salary_report(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 124,
+            "name": "click show to open gross salary report",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_gross_salary_report()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 116,
+            "name": "@scenario8"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2637875915,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166973496,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49558,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4191510569,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1226660676,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3647508054,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 143,
+        "name": "To test month wise salary report",
+        "description": "",
+        "id": "salary-reports;to-test-month-wise-salary-report;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2694716297,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3037407782,
+              "status": "passed"
+            },
+            "line": 133,
+            "name": "month wise salary report page opened",
+            "match": {
+              "location": "MyTestSteps.month_wise_salary_report_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70809285,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "user select school bank \"All School Banks\" on month wise salary report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All School Banks",
+                  "offset": 25
+                }
+              ],
+              "location": "MyTestSteps.user_select_school_bank_on_month_wise_salary_report(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62794086,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "select salary account no \"All Salary A/C\" on month wise salary report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Salary A/C",
+                  "offset": 26
+                }
+              ],
+              "location": "MyTestSteps.select_salary_account_no_on_month_wise_salary_report(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60583037,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "select staff type \"All Staff Types\" on month wise salary report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Staff Types",
+                  "offset": 19
+                }
+              ],
+              "location": "MyTestSteps.select_staff_type_on_month_wise_salary_report(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93064637,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "select from month \"April - 2017\" on month wise salary report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "April - 2017",
+                  "offset": 19
+                }
+              ],
+              "location": "MyTestSteps.select_from_month_on_month_wise_salary_report(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97334835,
+              "status": "passed"
+            },
+            "line": 138,
+            "name": "select to month \"April - 2017\" on month wise salary report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "April - 2017",
+                  "offset": 17
+                }
+              ],
+              "location": "MyTestSteps.select_to_month_on_month_wise_salary_report(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9263185213,
+              "status": "passed"
+            },
+            "line": 139,
+            "name": "click show to open month wise salary report",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_month_wise_salary_report()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 131,
+            "name": "@scenario9"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5392980242,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173174990,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58941,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5141557575,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 585680203,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3558324482,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 156,
+        "name": "To test salary sheet",
+        "description": "",
+        "id": "salary-reports;to-test-salary-sheet;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2704376294,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2301185346,
+              "status": "passed"
+            },
+            "line": 148,
+            "name": "salary sheet page opened",
+            "match": {
+              "location": "MyTestSteps.salary_sheet_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 73507117,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate element with text: All School Banks\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.3.1\u0027, revision: \u00275234b325d5\u0027, time: \u00272017-03-10 09:10:29 +0000\u0027\nSystem info: host: \u0027DELL-PC\u0027, ip: \u0027192.168.10.49\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)\r\n\tat pageObjects.SalarySheet.selectSchoolBank(SalarySheet.java:44)\r\n\tat stepDef.MyTestSteps.user_select_school_bank_on_salary_sheet(MyTestSteps.java:494)\r\n\tat ✽.When user select school bank \"All School Banks\" on salary sheet(Feature/SalaryReports.feature:149)\r\n",
+              "status": "failed"
+            },
+            "line": 149,
+            "name": "user select school bank \"All School Banks\" on salary sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All School Banks",
+                  "offset": 25
+                }
+              ],
+              "location": "MyTestSteps.user_select_school_bank_on_salary_sheet(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 150,
+            "name": "select salary account no \"All Salary A/C\" on salary sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Salary A/C",
+                  "offset": 26
+                }
+              ],
+              "location": "MyTestSteps.select_salary_account_no_on_salary_sheet(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 151,
+            "name": "select salary month \"April - 2017\" on salary sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "April - 2017",
+                  "offset": 21
+                }
+              ],
+              "location": "MyTestSteps.select_salary_month_on_salary_sheet(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 152,
+            "name": "click show to open salary sheet",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_salary_sheet()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 146,
+            "name": "@scenario10"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15628907970,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155501846,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48385,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4408452893,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 527589727,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3717115924,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 172,
+        "name": "To test staff statement",
+        "description": "",
+        "id": "salary-reports;to-test-staff-statement;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2718501202,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2017220670,
+              "status": "passed"
+            },
+            "line": 161,
+            "name": "staff statement page opened",
+            "match": {
+              "location": "MyTestSteps.staff_statement_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61510857,
+              "status": "passed"
+            },
+            "line": 162,
+            "name": "user select school bank \"All School Banks\" on staff statement",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All School Banks",
+                  "offset": 25
+                }
+              ],
+              "location": "MyTestSteps.user_select_school_bank_on_staff_statement(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59129433,
+              "status": "passed"
+            },
+            "line": 163,
+            "name": "select salary account no \"All Salary A/C\" on staff statement",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Salary A/C",
+                  "offset": 26
+                }
+              ],
+              "location": "MyTestSteps.select_salary_account_no_on_staff_statement(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60843436,
+              "status": "passed"
+            },
+            "line": 164,
+            "name": "select staff type \"All Staff Types\" on staff statement",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Staff Types",
+                  "offset": 19
+                }
+              ],
+              "location": "MyTestSteps.select_staff_type_on_staff_statement(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4535798761,
+              "status": "passed"
+            },
+            "line": 165,
+            "name": "select joining from date as month \"April\" year \"2016\" and day \"1\" on staff statement",
+            "match": {
+              "arguments": [
+                {
+                  "val": "April",
+                  "offset": 35
+                },
+                {
+                  "val": "2016",
+                  "offset": 48
+                },
+                {
+                  "val": "1",
+                  "offset": 63
+                }
+              ],
+              "location": "MyTestSteps.select_joining_from_date_as_month_year_and_day_on_staff_statement(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4923357241,
+              "status": "passed"
+            },
+            "line": 166,
+            "name": "select joining to date as month \"March\" year \"2017\" and day \"31\" on staff statement",
+            "match": {
+              "arguments": [
+                {
+                  "val": "March",
+                  "offset": 33
+                },
+                {
+                  "val": "2017",
+                  "offset": 46
+                },
+                {
+                  "val": "31",
+                  "offset": 61
+                }
+              ],
+              "location": "MyTestSteps.select_joining_to_date_as_month_year_and_day_on_staff_statement(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139940636,
+              "status": "passed"
+            },
+            "line": 167,
+            "name": "select salary month \"April - 2017\" on staff statement",
+            "match": {
+              "arguments": [
+                {
+                  "val": "April - 2017",
+                  "offset": 21
+                }
+              ],
+              "location": "MyTestSteps.select_salary_month_on_staff_statement(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7230821495,
+              "status": "passed"
+            },
+            "line": 168,
+            "name": "click show to open staff statement",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_staff_statement()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 159,
+            "name": "@scenario11"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1256096660,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168691312,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51611,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3585917729,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1344242153,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4210256101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 183,
+        "name": "To test tds entry report",
+        "description": "",
+        "id": "salary-reports;to-test-tds-entry-report;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2658753027,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1945039010,
+              "status": "passed"
+            },
+            "line": 177,
+            "name": "tds entry report page opened",
+            "match": {
+              "location": "MyTestSteps.tds_entry_report_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 145706372,
+              "status": "passed"
+            },
+            "line": 178,
+            "name": "user select month-year \"April - 2017\" on tds entry report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "April - 2017",
+                  "offset": 24
+                }
+              ],
+              "location": "MyTestSteps.user_select_month_year_on_tds_entry_report(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5906795779,
+              "status": "passed"
+            },
+            "line": 179,
+            "name": "click show to open tds entry report",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_tds_entry_report()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 175,
+            "name": "@scenario12"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3486746315,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 176803573,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52198,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5227051863,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1638212264,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3345031269,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 197,
+        "name": "To test salary certificate report",
+        "description": "",
+        "id": "salary-reports;to-test-salary-certificate-report;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2668883385,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1445094726,
+              "status": "passed"
+            },
+            "line": 188,
+            "name": "salary certificate report page opened",
+            "match": {
+              "location": "MyTestSteps.salary_certificate_report_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66627060,
+              "status": "passed"
+            },
+            "line": 189,
+            "name": "user select school bank \"All School Banks\" on salary certificate report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All School Banks",
+                  "offset": 25
+                }
+              ],
+              "location": "MyTestSteps.user_select_school_bank_on_salary_certificate_report(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58269353,
+              "status": "passed"
+            },
+            "line": 190,
+            "name": "select salary account no \"All Salary A/C\" on salary certificate report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Salary A/C",
+                  "offset": 26
+                }
+              ],
+              "location": "MyTestSteps.select_salary_account_no_on_salary_certificate_report(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89983244,
+              "status": "passed"
+            },
+            "line": 191,
+            "name": "select format \"Format One\" on salary certificate report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Format One",
+                  "offset": 15
+                }
+              ],
+              "location": "MyTestSteps.select_format_on_salary_certificate_report(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95220264,
+              "status": "passed"
+            },
+            "line": 192,
+            "name": "select year \"2017-2018\" on salary certificate report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2017-2018",
+                  "offset": 13
+                }
+              ],
+              "location": "MyTestSteps.select_year_on_salary_certificate_report(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8578082874,
+              "status": "passed"
+            },
+            "line": 193,
+            "name": "click show to open salary certificate report",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_salary_certificate_report()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 186,
+            "name": "@scenario13"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4840376043,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168503929,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51904,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12757070811,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1933221628,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3387002786,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 210,
+        "name": "To test quarterly form 24q",
+        "description": "",
+        "id": "salary-reports;to-test-quarterly-form-24q;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2657856291,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 76849495,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Quarterly Form 24Q\"}\n  (Session info: chrome\u003d60.0.3112.113)\n  (Driver info: chromedriver\u003d2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 31 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.3.1\u0027, revision: \u00275234b325d5\u0027, time: \u00272017-03-10 09:10:29 +0000\u0027\nSystem info: host: \u0027DELL-PC\u0027, ip: \u0027192.168.10.49\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir\u003dC:\\Users\\dell\\AppData\\Local\\Temp\\scoped_dir5484_15417}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d60.0.3112.113, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003d}]\nSession ID: 757ad30cef16ed14cd8425184cc8ed1c\n*** Element info: {Using\u003dlink text, value\u003dQuarterly Form 24Q}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:246)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat pageObjects.QuarterlyForm24Q.openQuarterlyForm24Q(QuarterlyForm24Q.java:35)\r\n\tat stepDef.MyTestSteps.quarterly_form_q_page_opened(MyTestSteps.java:624)\r\n\tat ✽.Given quarterly form 24q page opened(Feature/SalaryReports.feature:202)\r\n",
+              "status": "failed"
+            },
+            "line": 202,
+            "name": "quarterly form 24q page opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24",
+                  "offset": 15
+                }
+              ],
+              "location": "MyTestSteps.quarterly_form_q_page_opened(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 203,
+            "name": "user select school bank \"All School Banks\" on quarterly form 24q",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All School Banks",
+                  "offset": 25
+                },
+                {
+                  "val": "24",
+                  "offset": 61
+                }
+              ],
+              "location": "MyTestSteps.user_select_school_bank_on_quarterly_form_q(String,int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 204,
+            "name": "select salary account no \"All Salary A/C\" on quarterly form 24q",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Salary A/C",
+                  "offset": 26
+                },
+                {
+                  "val": "24",
+                  "offset": 60
+                }
+              ],
+              "location": "MyTestSteps.select_salary_account_no_on_quarterly_form_q(String,int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 205,
+            "name": "select salary month \"2017 - April\" on quarterly form 24q",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2017 - April",
+                  "offset": 21
+                },
+                {
+                  "val": "24",
+                  "offset": 53
+                }
+              ],
+              "location": "MyTestSteps.select_salary_month_on_quarterly_form_q(String,int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 206,
+            "name": "click show to open quarterly form 24q",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24",
+                  "offset": 34
+                }
+              ],
+              "location": "MyTestSteps.click_show_to_open_quarterly_form_q(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 200,
+            "name": "@scenario14"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1177153705,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170946054,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50437,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8037705130,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1628051409,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3354855481,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 223,
+        "name": "To test salary statement employee wise",
+        "description": "",
+        "id": "salary-reports;to-test-salary-statement-employee-wise;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2673169712,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4214643010,
+              "status": "passed"
+            },
+            "line": 215,
+            "name": "salary statement employee wise page opened",
+            "match": {
+              "location": "MyTestSteps.salary_statement_employee_wise_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63361216,
+              "status": "passed"
+            },
+            "line": 216,
+            "name": "user select salary account no \"All Salary A/C\" on salary statement employee wise",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Salary A/C",
+                  "offset": 31
+                }
+              ],
+              "location": "MyTestSteps.user_select_salary_account_no_on_salary_statement_employee_wise(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69354801,
+              "status": "passed"
+            },
+            "line": 217,
+            "name": "select staff type \"All Staff Types\" on salary statement employee wise",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Staff Types",
+                  "offset": 19
+                }
+              ],
+              "location": "MyTestSteps.select_staff_type_on_salary_statement_employee_wise(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91395207,
+              "status": "passed"
+            },
+            "line": 218,
+            "name": "select staff \"All Staffs\" on salary statement employee wise",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Staffs",
+                  "offset": 14
+                }
+              ],
+              "location": "MyTestSteps.select_staff_on_salary_statement_employee_wise(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63992770398,
+              "status": "passed"
+            },
+            "line": 219,
+            "name": "click show to open salary statement employee wise",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_salary_statement_employee_wise()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 213,
+            "name": "@scenario15"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21082337824,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 172433087,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 304093,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9846126823,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3247116985,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3386213376,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 238,
+        "name": "To test estimated salary report",
+        "description": "",
+        "id": "salary-reports;to-test-estimated-salary-report;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2681937078,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5342407627,
+              "status": "passed"
+            },
+            "line": 228,
+            "name": "estimated salary report page opened",
+            "match": {
+              "location": "MyTestSteps.estimated_salary_report_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61141370,
+              "status": "passed"
+            },
+            "line": 229,
+            "name": "user select school bank \"All School Banks\" on estimated salary report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All School Banks",
+                  "offset": 25
+                }
+              ],
+              "location": "MyTestSteps.user_select_school_bank_on_estimated_salary_report(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60221762,
+              "status": "passed"
+            },
+            "line": 230,
+            "name": "select salary account no \"All Salary A/C\" on estimated salary report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Salary A/C",
+                  "offset": 26
+                }
+              ],
+              "location": "MyTestSteps.select_salary_account_no_on_estimated_salary_report(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63953274,
+              "status": "passed"
+            },
+            "line": 231,
+            "name": "select staff type \"All Staff Types\" on estimated salary report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Staff Types",
+                  "offset": 19
+                }
+              ],
+              "location": "MyTestSteps.select_staff_type_on_estimated_salary_report(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62093823,
+              "status": "passed"
+            },
+            "line": 232,
+            "name": "select staff \"All Staffs\" on estimated salary report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Staffs",
+                  "offset": 14
+                }
+              ],
+              "location": "MyTestSteps.select_staff_on_estimated_salary_report(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60932289,
+              "status": "passed"
+            },
+            "line": 233,
+            "name": "select format \"Format 1\" on estimated salary report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Format 1",
+                  "offset": 15
+                }
+              ],
+              "location": "MyTestSteps.select_format_on_estimated_salary_report(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9527751305,
+              "status": "passed"
+            },
+            "line": 234,
+            "name": "click show to open estimated salary report",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_estimated_salary_report()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 226,
+            "name": "@scenario16"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8058086663,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148825593,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75950,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10520486806,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 695490164,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3405171802,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 253,
+        "name": "To test salary slip",
+        "description": "",
+        "id": "salary-reports;to-test-salary-slip;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2670208842,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12003986340,
+              "status": "passed"
+            },
+            "line": 243,
+            "name": "salary slip page opened",
+            "match": {
+              "location": "MyTestSteps.salary_slip_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69055401,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Inspiration public school\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.3.1\u0027, revision: \u00275234b325d5\u0027, time: \u00272017-03-10 09:10:29 +0000\u0027\nSystem info: host: \u0027DELL-PC\u0027, ip: \u0027192.168.10.49\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)\r\n\tat pageObjects.SalarySlip.selectSchoolName(SalarySlip.java:41)\r\n\tat stepDef.MyTestSteps.user_select_school_name_on_salary_slip(MyTestSteps.java:1247)\r\n\tat ✽.When user select school name \"Inspiration public school\" on salary slip(Feature/SalaryReports.feature:244)\r\n",
+              "status": "failed"
+            },
+            "line": 244,
+            "name": "user select school name \"Inspiration public school\" on salary slip",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Inspiration public school",
+                  "offset": 25
+                }
+              ],
+              "location": "MyTestSteps.user_select_school_name_on_salary_slip(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 245,
+            "name": "select staff type \"All Staff Types\" on salary slip",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Staff Types",
+                  "offset": 19
+                }
+              ],
+              "location": "MyTestSteps.select_staff_type_on_salary_slip(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 246,
+            "name": "select salary month \"April - 2017\" on salary slip",
+            "match": {
+              "arguments": [
+                {
+                  "val": "April - 2017",
+                  "offset": 21
+                }
+              ],
+              "location": "MyTestSteps.select_salary_month_on_salary_slip(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 247,
+            "name": "click show to open salary slip",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_salary_slip()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 248,
+            "name": "select employee \"pallavi\" on salary slip",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pallavi",
+                  "offset": 17
+                }
+              ],
+              "location": "MyTestSteps.select_employee_on_salary_slip(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 249,
+            "name": "click print to view salary slip",
+            "match": {
+              "location": "MyTestSteps.click_print_to_view_salary_slip()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 241,
+            "name": "@scenario17"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7977647585,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url \"http://qaerp.franciscanecare.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaerp.franciscanecare.net",
+                  "offset": 16
+                }
+              ],
+              "location": "MyTestSteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 145595232,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username \"admin\" and password \"Admin#franciscan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin#franciscan",
+                  "offset": 42
+                }
+              ],
+              "location": "MyTestSteps.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43693,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "passes school name \"qaerp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaerp",
+                  "offset": 20
+                }
+              ],
+              "location": "MyTestSteps.passes_school_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11119894573,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "MyTestSteps.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2579494837,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payroll home page is opened",
+            "match": {
+              "location": "MyTestSteps.payroll_home_page_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3548836619,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.launchBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 266,
+        "name": "To test consolidated salary statement",
+        "description": "",
+        "id": "salary-reports;to-test-consolidated-salary-statement;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2670890923,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyTestSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6625396391,
+              "status": "passed"
+            },
+            "line": 258,
+            "name": "consolidated salary statement page opened",
+            "match": {
+              "location": "MyTestSteps.consolidated_salary_statement_page_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48974443,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Teachers\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.3.1\u0027, revision: \u00275234b325d5\u0027, time: \u00272017-03-10 09:10:29 +0000\u0027\nSystem info: host: \u0027DELL-PC\u0027, ip: \u0027192.168.10.49\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)\r\n\tat pageObjects.ConsolidatedSalaryStatement.selectStaffType(ConsolidatedSalaryStatement.java:39)\r\n\tat stepDef.MyTestSteps.user_select_staff_type_on_consolidated_salary_statement(MyTestSteps.java:1290)\r\n\tat ✽.When user select staff type \"Teachers\" on consolidated salary statement(Feature/SalaryReports.feature:259)\r\n",
+              "status": "failed"
+            },
+            "line": 259,
+            "name": "user select staff type \"Teachers\" on consolidated salary statement",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Teachers",
+                  "offset": 24
+                }
+              ],
+              "location": "MyTestSteps.user_select_staff_type_on_consolidated_salary_statement(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 260,
+            "name": "select salary month \"2017 - April\" on consolidated salary statement",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2017 - April",
+                  "offset": 21
+                }
+              ],
+              "location": "MyTestSteps.select_salary_month_on_consolidated_salary_statement(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 261,
+            "name": "click show to open consolidated salary statement",
+            "match": {
+              "location": "MyTestSteps.click_show_to_open_consolidated_salary_statement()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 262,
+            "name": "select employee \"pallavi\" on consolidated salary statement",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pallavi",
+                  "offset": 17
+                }
+              ],
+              "location": "MyTestSteps.select_employee_on_consolidated_salary_statement(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 256,
+            "name": "@scenario18"
           }
         ]
       }
     ],
-    "name": "Franciscan Fee",
-    "description": "    As a user I would like to verify that \r\n    The page is loaded successfully",
-    "id": "franciscan-fee",
+    "name": "Salary Reports",
+    "description": " As a user I would like to open salary reports\n so that I can verify them",
+    "id": "salary-reports",
     "keyword": "Feature",
-    "uri": "Feature/VerifyPage.feature"
+    "uri": "Feature/SalaryReports.feature"
   }
 ]
