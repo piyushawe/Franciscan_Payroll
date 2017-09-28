@@ -89,7 +89,7 @@
                         <forkCount>10</forkCount>
                         <reuseForks>true</reuseForks>
                         <includes>
-                            <include>**/ReportsRunner.class</include>
+                            <include>**/SalaryReportsRunner.class</include>
                         </includes>
                     </configuration>
                 </plugin>
