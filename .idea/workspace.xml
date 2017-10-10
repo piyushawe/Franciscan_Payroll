@@ -2,137 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2bb8819-61c4-4c07-b8dc-9e4af83d58a2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/Payroll/Payroll/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/Payroll/Payroll/pom.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/AdvancePageObject/AdvanceEntry.class" afterPath="$PROJECT_DIR$/target/classes/AdvancePageObject/AdvanceEntry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/AdvancePageObject/AdvanceLedgerReport.class" afterPath="$PROJECT_DIR$/target/classes/AdvancePageObject/AdvanceLedgerReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/AdvancePageObject/AdvanceRepayment.class" afterPath="$PROJECT_DIR$/target/classes/AdvancePageObject/AdvanceRepayment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/AdvancePageObject/FixAdvanceAccount.class" afterPath="$PROJECT_DIR$/target/classes/AdvancePageObject/FixAdvanceAccount.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/DefineAcademicYear.class" afterPath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/DefineAcademicYear.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/DefineDepartment.class" afterPath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/DefineDepartment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/DefineDesignation.class" afterPath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/DefineDesignation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/DefineFinancialYear.class" afterPath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/DefineFinancialYear.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/DefineProfession.class" afterPath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/DefineProfession.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/DefineSmsTemplate.class" afterPath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/DefineSmsTemplate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/DefineStaff.class" afterPath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/DefineStaff.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/DefineStaffType.class" afterPath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/DefineStaffType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/SessionTransfer.class" afterPath="$PROJECT_DIR$/target/classes/GlobalMastersPageObject/SessionTransfer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MasterSettingsPageObject/ChangeAcademic.class" afterPath="$PROJECT_DIR$/target/classes/MasterSettingsPageObject/ChangeAcademic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/AssignSalaryGroupToHead.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/AssignSalaryGroupToHead.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/AssignSalaryGroupToStaff.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/AssignSalaryGroupToStaff.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/BasicSalaryStructure.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/BasicSalaryStructure.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineFixation.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineFixation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineGlobalSettings.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineGlobalSettings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineGradePay.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineGradePay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineITHead.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineITHead.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineITHeadGroups.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineITHeadGroups.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineIncomeTaxSlab.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineIncomeTaxSlab.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefinePayScale.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefinePayScale.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefinePayScaleAmount.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefinePayScaleAmount.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineSalaryAccount.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineSalaryAccount.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineSalaryGroup.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineSalaryGroup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineSalaryHead.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineSalaryHead.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineSalaryMonth.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineSalaryMonth.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineTDSDeductee.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/DefineTDSDeductee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/GenerateBarCode.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/GenerateBarCode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/RelateStaticDynamicHeads.class" afterPath="$PROJECT_DIR$/target/classes/PayrollMasterPageObject/RelateStaticDynamicHeads.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/AssignInfoBulk.class" afterPath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/AssignInfoBulk.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/AutoIncrement.class" afterPath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/AutoIncrement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/BankStatement.class" afterPath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/BankStatement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/BonusCalculations.class" afterPath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/BonusCalculations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/ITHeadEntry.class" afterPath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/ITHeadEntry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/IncrementRollback.class" afterPath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/IncrementRollback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/LeaveLwpManual.class" afterPath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/LeaveLwpManual.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/OccasionalAllowanceDeduction.class" afterPath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/OccasionalAllowanceDeduction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/SalaryGeneration.class" afterPath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/SalaryGeneration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/StaffSalaryStructure.class" afterPath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/StaffSalaryStructure.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/TDSEntry.class" afterPath="$PROJECT_DIR$/target/classes/SalaryStructurePageObject/TDSEntry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/AdvanceEntryReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/AdvanceEntryReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/AdvanceRepaymentReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/AdvanceRepaymentReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/BankStatementReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/BankStatementReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/ConsolidatedSalaryStatement.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/ConsolidatedSalaryStatement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/DateRangeRetirementReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/DateRangeRetirementReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/DepartmentWiseReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/DepartmentWiseReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/ESIReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/ESIReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/EmployeeStatistics.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/EmployeeStatistics.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/EmployeeTypeWiseReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/EmployeeTypeWiseReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/EstimatedExtraIncome.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/EstimatedExtraIncome.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/EstimatedSalaryReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/EstimatedSalaryReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/ExperienceCertificateReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/ExperienceCertificateReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/FixationReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/FixationReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/Form16.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/Form16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/GLSIReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/GLSIReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/GrossForm16.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/GrossForm16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/GrossSalaryReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/GrossSalaryReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/IncrementReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/IncrementReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/MACPList.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/MACPList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/MonthWiseSalaryReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/MonthWiseSalaryReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/PFChallanReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/PFChallanReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/PFReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/PFReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/PensionList.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/PensionList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/ProfessionalTax.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/ProfessionalTax.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/QuarterlyForm24Q.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/QuarterlyForm24Q.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/RetirementReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/RetirementReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/SalaryCertificateReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/SalaryCertificateReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/SalaryCompare.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/SalaryCompare.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/SalarySheet.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/SalarySheet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/SalarySlip.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/SalarySlip.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/SalaryStatementEmployeeWise.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/SalaryStatementEmployeeWise.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/StaffStatement.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/StaffStatement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/SuperAnnuciationReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/SuperAnnuciationReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/TDSEntryReport.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/TDSEntryReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/Utility.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/Utility.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/runner/ReportsRunner.class" afterPath="$PROJECT_DIR$/target/test-classes/runner/ReportsRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/runner/SalaryReportsRunner.class" afterPath="$PROJECT_DIR$/target/test-classes/runner/SalaryReportsRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/runner/VerifyPageRunner.class" afterPath="$PROJECT_DIR$/target/test-classes/runner/VerifyPageRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/stepDef/MyTestSteps.class" afterPath="$PROJECT_DIR$/target/test-classes/stepDef/MyTestSteps.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Feature/Reports.feature" afterPath="$PROJECT_DIR$/Feature/Reports.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Feature/SalaryReports.feature" afterPath="$PROJECT_DIR$/Feature/SalaryReports.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Feature/VerifyPage.feature" afterPath="$PROJECT_DIR$/Feature/VerifyPage.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GlobalMastersPageObject/DefineDesignation.java" afterPath="$PROJECT_DIR$/src/main/java/GlobalMastersPageObject/DefineDesignation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GlobalMastersPageObject/DefineProfession.java" afterPath="$PROJECT_DIR$/src/main/java/GlobalMastersPageObject/DefineProfession.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GlobalMastersPageObject/DefineStaffType.java" afterPath="$PROJECT_DIR$/src/main/java/GlobalMastersPageObject/DefineStaffType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/AdvanceEntryReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AdvanceEntryReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/AdvanceRepaymentReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AdvanceRepaymentReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/BankStatementReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/BankStatementReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/DateRangeRetirementReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/DateRangeRetirementReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/DepartmentWiseReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/DepartmentWiseReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/ESIReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ESIReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/EmployeeStatistics.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/EmployeeStatistics.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/EmployeeTypeWiseReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/EmployeeTypeWiseReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/EstimatedExtraIncome.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/EstimatedExtraIncome.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/EstimatedSalaryReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/EstimatedSalaryReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/ExperienceCertificateReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ExperienceCertificateReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/FixationReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/FixationReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/Form16.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Form16.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/GLSIReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/GLSIReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/GrossForm16.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/GrossForm16.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/GrossSalaryReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/GrossSalaryReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/IncrementReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/IncrementReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/MACPList.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/MACPList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/MonthWiseSalaryReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/MonthWiseSalaryReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/PFChallanReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/PFChallanReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/PFReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/PFReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/PensionList.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/PensionList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/ProfessionalTax.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ProfessionalTax.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/QuarterlyForm24Q.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/QuarterlyForm24Q.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/RetirementReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/RetirementReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SalaryCertificateReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SalaryCertificateReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SalaryCompare.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SalaryCompare.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SalarySheet.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SalarySheet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SalarySlip.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SalarySlip.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SalaryStatementEmployeeWise.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SalaryStatementEmployeeWise.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/StaffStatement.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/StaffStatement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SuperAnnuciationReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SuperAnnuciationReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/TDSEntryReport.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/TDSEntryReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/Utility.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Utility.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/stepDef/MyTestSteps.java" afterPath="$PROJECT_DIR$/src/test/java/stepDef/MyTestSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber.json" afterPath="$PROJECT_DIR$/target/cucumber.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber.xml" afterPath="$PROJECT_DIR$/target/cucumber.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber_html_report/report.js" afterPath="$PROJECT_DIR$/target/cucumber_html_report/report.js" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -151,8 +24,8 @@
       <file leaf-file-name="VerifyPage.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Feature/VerifyPage.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -171,8 +44,18 @@
       <file leaf-file-name="Reports.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Feature/Reports.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="136">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-734">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -181,18 +64,8 @@
       <file leaf-file-name="MyTestSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepDef/MyTestSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="91" column="26" lean-forward="true" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utility.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/Utility.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="102">
+              <caret line="93" column="20" lean-forward="false" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -202,17 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/runner/ReportsRunner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="949">
-              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -289,12 +152,12 @@
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/TDSEntryReport.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/StaffStatement.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/SuperAnnuciationReport.java" />
-        <option value="$PROJECT_DIR$/Feature/VerifyPage.feature" />
-        <option value="$PROJECT_DIR$/Feature/SalaryReports.feature" />
-        <option value="$PROJECT_DIR$/Feature/Reports.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepDef/MyTestSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/Utility.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Feature/SalaryReports.feature" />
+        <option value="$PROJECT_DIR$/Feature/Reports.feature" />
+        <option value="$PROJECT_DIR$/Feature/VerifyPage.feature" />
       </list>
     </option>
   </component>
@@ -319,9 +182,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -344,38 +206,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Payroll" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Payroll" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cucumber_html_report" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Payroll" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Payroll" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -385,10 +215,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stepDef" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -456,6 +282,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -819,6 +646,35 @@
       <option name="presentableId" value="Default" />
       <updated>1496400182449</updated>
     </task>
+    <task id="LOCAL-00001" summary="commited as on sep 25, 2017">
+      <created>1506334605547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1506334605547</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commited as on sep 28, 2017">
+      <created>1506595218707</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1506595218707</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commited as on sep 28, 2017">
+      <created>1506596169595</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1506596169595</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commited as on sep 28, 2017">
+      <created>1506596992711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1506596992711</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -871,8 +727,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27231467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2806354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -888,10 +743,16 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.83149606" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="3" y="290" width="1360" height="147" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="7.320644E-4" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commited as on sep 25, 2017" />
+    <MESSAGE value="commited as on sep 28, 2017" />
+    <option name="LAST_COMMIT_MESSAGE" value="commited as on sep 28, 2017" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -930,9 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -964,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="63" column="7" lean-forward="false" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -972,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="63" column="11" lean-forward="false" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -980,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="69" column="7" lean-forward="false" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,7 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,7 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,7 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="63" column="7" lean-forward="false" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,7 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="58" column="7" lean-forward="false" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
           <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,7 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="73" column="7" lean-forward="false" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,7 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
           <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,7 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="59" column="7" lean-forward="false" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,7 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="54" column="11" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,7 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="49" column="7" lean-forward="false" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,7 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,7 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1092,7 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="68" column="11" lean-forward="false" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,7 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="100" column="8" lean-forward="false" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1108,7 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,7 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="68" column="11" lean-forward="false" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,7 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,7 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="59" column="7" lean-forward="false" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="59" column="7" lean-forward="false" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,7 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="59" column="7" lean-forward="false" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,7 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,7 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
           <caret line="44" column="7" lean-forward="false" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,7 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="59" column="7" lean-forward="false" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1180,7 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="49" column="7" lean-forward="false" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,7 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="63" column="7" lean-forward="false" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1196,7 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="72" column="8" lean-forward="false" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1204,7 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="44" column="7" lean-forward="false" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,7 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,7 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="69" column="7" lean-forward="false" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,30 +1061,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/runner/ReportsRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/Utility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="949">
-          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDef/MyTestSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="93" column="20" lean-forward="false" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Feature/VerifyPage.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1274,24 +1105,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Feature/Reports.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDef/MyTestSteps.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="91" column="26" lean-forward="true" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/Utility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="-734">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
